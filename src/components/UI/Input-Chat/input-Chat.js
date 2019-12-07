@@ -28,7 +28,9 @@ class Input extends Component {
             placeholder="Введите сообщение"
             autofocus="true"
           />
-          <Button>Отправить</Button>
+          <Button type="primary"
+              onClick={this.registerHandler}
+              >Отправить</Button>
         </form>
       </div>
     );

@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom'
 import Backdrop from '../../UI/Backdrop/Backdrop'
 
 const links = [
-    {to: '/', label: 'Моя страница', exact: true},
+    {to: '/Auth', label: 'Регистрация', exact: true},
     {to: '/GoogleMap', label: 'Карта', exact: false}
 ]
 

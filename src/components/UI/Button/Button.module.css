@@ -3,9 +3,9 @@
     padding: 5px 10px;
     border-radius: 8px;
     border: 1px solid;
-    color: #000;
+    color: white;
     text-transform: uppercase;
-    /* font-weight: bold; */
+    font-weight: bold;
     font-size: 12px;
     margin-left: 10px;
 }
@@ -15,24 +15,26 @@
 }
 
 .Button:active {
-    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, .3);
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, .3);;
 }
 
 .Button:disabled {
-    background: #ccc;
+    background: rgb(255, 255, 255);
     color: #000;
     cursor: not-allowed;
 }
 
 .error {
     background: rgba(240, 87, 108, 1);
+    color: rgb(190, 27, 27);
 }
 
 .success {
-    background: rgba(161, 240, 69, 1);
+    background: cornflowerblue;
+    color: #fff;
 }
 
 .primary {
-    background: #2884f6;
+    background: cornflowerblue;
     color: #fff;
 }

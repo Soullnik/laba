@@ -10,7 +10,6 @@
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px; 
   background:  #ffffff;
-  box-shadow: 1px 1px 1px 1px #000;
   z-index: 90;
   transform: translateX(0 px) ;
   transition: transform .22 ease-in ;
