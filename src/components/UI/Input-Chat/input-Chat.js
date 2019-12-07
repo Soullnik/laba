@@ -28,8 +28,7 @@ class Input extends Component {
             placeholder="Введите сообщение"
             autofocus="true"
           />
-          <Button onClck={this.props.onRetry}
-          type="primary">Отправить</Button>
+          <Button>Отправить</Button>
         </form>
       </div>
     );

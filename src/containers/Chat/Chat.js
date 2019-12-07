@@ -53,7 +53,7 @@ class Chat extends Component {
   render() {
     const cls = [classes.Chat]
 
-    if (!this.props.isOpen) {
+    if (this.props.isOpen) {
       cls.push(classes.close)}
     
       return (
