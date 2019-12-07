@@ -21,7 +21,7 @@ class Messages extends Component {
       <li className={className}>
       <span
         className={classes.avatar}
-        // style={{backgroundColor: member.clientData.color}}
+        style={{backgroundColor: member.clientData.color}}
       />
         <div className={classes.Messagecontent}>
           <div className={classes.username}>
