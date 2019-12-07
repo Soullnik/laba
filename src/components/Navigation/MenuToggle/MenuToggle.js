@@ -6,7 +6,6 @@ const MenuToggle = props => {
         classes.MenuToggle,
         'fa'
     ]
-{/* <i class="fa fa-user-circle-o" aria-hidden="true"></i> */}
     if (props.isOpen) {
         cls.push('fa-times')
         cls.push(classes.open)

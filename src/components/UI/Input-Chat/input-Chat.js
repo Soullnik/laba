@@ -1,6 +1,7 @@
 import {Component} from "react";
 import React from "react";
 import Button from '../Button/Button'
+import classes from './Input_Chat.module.css'
 class Input extends Component {
   state = {
     text: ""
@@ -18,7 +19,7 @@ class Input extends Component {
 
   render() {
     return (
-      <div className="Input">
+      <div className= {classes.Input}>
         <form onSubmit={e => this.onSubmit(e)}>
           <input
             onChange={e => this.onChange(e)}

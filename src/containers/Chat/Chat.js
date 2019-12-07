@@ -54,6 +54,9 @@ class Chat extends Component {
     return (
        
         <div className={classes.Chat}>
+          <div className={classes.Chatheader}>
+        <h1>Чат</h1>
+        </div>
         <Messages
           messages={this.state.messages}
           currentMember={this.state.member}
