@@ -9,7 +9,7 @@
   overflow: auto;
 }
 
-.Messages-message {
+.Messagesmessage {
   display: flex;
   margin-top: 10px;
   
@@ -21,15 +21,13 @@
   text-align: right;
 }
 
-.Message-content {
+.Messagecontent {
   display: inline-block;
-}
-
-.currentMember > .Messagecontent {
   align-items: flex-end;
 }
 
-.Messages-message > .avatar {
+
+.avatar {
   height: 35px;
   width: 35px;
   border-radius: 50%;
@@ -37,14 +35,14 @@
   margin: 0 10px -10px;
 }
 
-.Message-content > .username {
+.username {
   display: block;
   color: gray;
   font-size: 14px;
   padding-bottom: 4px;
 }
 
-.Message-content > .text {
+.text {
   padding: 10px;
   max-width: 400px;
   margin: 0;
@@ -54,6 +52,6 @@
   display: inline-block;
 }
 
-.currentMember > .Message-content .text {
+.text {
   background-color: orangered;
 }

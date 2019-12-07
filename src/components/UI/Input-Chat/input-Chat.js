@@ -29,7 +29,7 @@ class Input extends Component {
             autofocus="true"
           />
           <Button onClck={this.props.onRetry}
-          type="success">Отправить</Button>
+          type="primary">Отправить</Button>
         </form>
       </div>
     );

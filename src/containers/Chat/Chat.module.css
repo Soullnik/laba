@@ -10,17 +10,17 @@
   padding: 20px 5px;
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px; 
-  background: linear-gradient(270deg, #cef2fa 0%, #59bfef 100%);
+  background:  #ffffff;
+  box-shadow: 1px 1px 1px 1px #000;
   z-index: 90;
 }
-
 .Chatheader {
-  background: linear-gradient(270deg, #cef2fa 0%, #59bfef 100%);
+  background:  #ffffff;
   z-index: 90;
   overflow: visible;
   width: 100%;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
   

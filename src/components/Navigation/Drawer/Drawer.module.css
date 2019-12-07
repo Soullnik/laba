@@ -7,7 +7,8 @@
     max-width: 300px;
     padding: 20px 10px;
     box-sizing: border-box;
-    background: linear-gradient(270deg, #cef2fa 0%, #59bfef 100%);
+    background:  #ffffff;
+    box-shadow: inset 1px 1px 4px 3px #000;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     transform: translateX(0px);
@@ -30,10 +31,10 @@
 }
 
 .Drawer ul li a {
-    color: #363d54;
+    color: #000000;
     font-size: 30px;
     text-decoration: none;
-    background-color: linear-gradient(270deg, #cef2fa 0%, #59bfef 100%);
+    background-color: #ffffff;
     position: relative;
     padding: 0 20px 10px 20px;
     transition: opacity .3s;
