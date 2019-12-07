@@ -26,7 +26,8 @@ class Layout extends Component {
         return (
             <div className={classes.Layout}>
                  
-                <Chat isOpen={this.state.menu} />  
+                <Chat isOpen={this.state.menu}
+                onClose={this.menuCloseHandler} />  
 
            
             

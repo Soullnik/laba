@@ -51,9 +51,14 @@ class Chat extends Component {
   }
 
   render() {
-    return (
+    const cls = [classes.Chat]
+
+    if (!this.props.isOpen) {
+      cls.push(classes.close)}
+    
+      return (
        
-        <div className={classes.Chat}>
+        <div className={cls.join(' ')}>
           <div className={classes.Chatheader}>
         <h1>Чат</h1>
         </div>

@@ -1,7 +1,6 @@
 .Chat {
-  display: flex;
+  display: flex ;
   flex-direction: column;
-  justify-content: space-between;
   position: fixed;
   right: 0;
   top: 0;
@@ -13,6 +12,12 @@
   background:  #ffffff;
   box-shadow: 1px 1px 1px 1px #000;
   z-index: 90;
+  transform: translateX(0 px) ;
+  transition: transform .22 ease-in ;
+}
+
+.Chat.close {
+  transform: translateX(320);
 }
 .Chatheader {
   background:  #ffffff;
