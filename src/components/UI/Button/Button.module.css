@@ -22,6 +22,7 @@
     background: rgb(255, 255, 255);
     color: #000;
     cursor: not-allowed;
+    border: 1px solid #bebebe;
 }
 
 .error {
@@ -32,6 +33,7 @@
 .success {
     background: cornflowerblue;
     color: #fff;
+    
 }
 
 .primary {

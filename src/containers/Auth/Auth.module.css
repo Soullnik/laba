@@ -11,12 +11,14 @@
     width: 100%;
     max-width: 900px;
     padding: 100px;
+    
 }
 
 .AuthForm {
     background: white;
     padding: 15px;
     border-radius: 12px;
+    border: 1px solid #bebebe;
 }
 
 .Auth h1 {
