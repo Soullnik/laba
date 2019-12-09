@@ -11,7 +11,7 @@ class App extends Component {
     <Layout>
       <Switch>
       <Route path="/GoogleMap" component={GoogleMapApi} />
-      <Route path="/Auth" component={Auth}/>
+      <Route component={Auth}/>
       </Switch>
     </Layout>
     );

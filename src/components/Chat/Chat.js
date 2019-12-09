@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import classes from './Chat.module.css';
-import Messages from "../../components/Message/Messages";
-import Input from "../../components/UI/Input-Chat/input-Chat";
+import Messages from "../Message/Messages";
+import Input from "../UI/Input-Chat/input-Chat";
+
 
 function randomName() {
   const adjectives = [
@@ -53,13 +54,14 @@ class Chat extends Component {
   render() {
     const cls = [classes.Chat]
 
-    if (this.props.isOpen) {
+    if (!this.props.isOpenn) {
       cls.push(classes.close)}
     
       return (
        
         <div className={cls.join(' ')}>
-          <div className={classes.Chatheader}>
+          <div className={classes.Chatheader}
+          >
         <h1>Чат</h1>
         </div>
         <Messages

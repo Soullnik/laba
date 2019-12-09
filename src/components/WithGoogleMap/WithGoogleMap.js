@@ -3,8 +3,6 @@ import { GoogleMap, withScriptjs, withGoogleMap } from "react-google-maps";
 import MarkerNavigation from '../Navigation/MarkerNavigation/MarkerNavigation'
 
 function Map() {
-    const markerHandler =  () => {;
-      }
 
     return (
 <div>
@@ -13,10 +11,10 @@ function Map() {
         disableDefaultUI
         defaultCenter={{lat: 53.904541, lng: 27.561523 }}
         defaultOptions={{
-            disableDefaultUI: true}}
+            disableDefaultUI: true}} 
         />
-    <MarkerNavigation
-    onClick={markerHandler}/>
+        <MarkerNavigation
+    />
 </div>
     );
 }

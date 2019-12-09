@@ -2,13 +2,14 @@ import React, {Component} from 'react'
 import classes from './Layout.module.css'
 import MenuTogggle from '../../components/Navigation/MenuToggle/MenuToggle'
 import Drawer from '../../components/Navigation/Drawer/Drawer'
-import Chat from '../../containers/Chat/Chat'
+import Chat from '../../components/Chat/Chat'
 
 class Layout extends Component {
 
     state = {
         menu: false
     }
+
 
     toggleMenuHandler = () => {
         this.setState({
@@ -26,8 +27,8 @@ class Layout extends Component {
         return (
             <div className={classes.Layout}>
                  
-                <Chat isOpen={this.state.menu}
-                onClose={this.menuCloseHandler} />  
+                <Chat isOpenn={this.state.menu}
+                />  
 
            
             

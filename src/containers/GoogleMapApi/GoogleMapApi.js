@@ -2,7 +2,12 @@ import React, {Component} from 'react'
 import WrappedMap from '../../components/WithGoogleMap/WithGoogleMap'
 
 
+
 export default class GoogleMapApi extends Component {
+
+    onMarkerClickHandler = () => {
+        console.log('sdfsdf')
+    } 
 
     render() {
         return (

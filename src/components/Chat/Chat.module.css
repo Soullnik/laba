@@ -11,13 +11,14 @@
   border-bottom-left-radius: 12px; 
   background:  #ffffff;
   z-index: 90;
-  transform: translateX(0 px) ;
-  transition: transform .22 ease-in ;
+  transform: translateX(0px) ;
+  transition: transform .22s ease-in;
 }
 
 .Chat.close {
-  transform: translateX(320);
+  transform: translateX(320px);
 }
+
 .Chatheader {
   background:  #ffffff;
   z-index: 90;
