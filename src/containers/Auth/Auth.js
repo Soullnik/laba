@@ -36,7 +36,7 @@ export default class Auth extends Component {
   }
 
   loginHandler =  () => {
-    
+    this.props.history.push('/GoogleMap');
   }
 
   registerHandler = async () => {
